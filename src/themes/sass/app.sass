@@ -1,0 +1,60 @@
+// @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap')
+// @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap')
+
+// Custom CSS
+@import 'node_modules/include-media/dist/_include-media'
+// @import '~vuetify/src/styles/main.sass';
+@import 'customize'
+@import 'mixins'
+@import 'variables'
+@import './components/navbar'
+@import './components/banner'
+@import './layouts/home/home-card-wrapper'
+@import './layouts/home/footer'
+@import './layouts/contest/content'
+
+
+
+// $color-pack: false;
+
+  
+*,
+*:before,
+*:after
+  box-sizing: border-box
+  margin: 0
+
+  
+html,
+body,
+#root,
+#app
+  padding: 0
+  margin: 0
+  width: 100%
+  height: 100%
+  -ms-text-size-adjust: 100%
+  -webkit-text-size-adjust: 100%
+  -moz-osx-font-smoothing: grayscale
+  -webkit-font-smoothing: antialiased
+  box-sizing: border-box
+  font-family: 'Poppins', Roboto, sans-serif !important
+  z-index: 1
+  overflow: auto !important
+a,
+a:hover
+  text-decoration: none !important
+  text-decoration-color: white
+.text-strikethrough
+   text-decoration: line-through !important
+.text-underline
+   text-decoration: underline !important
+.text-overline
+    text-decoration: overline !important 
+.cursor-pointer
+    cursor: pointer !important  
+
+
+

@@ -1,0 +1,52 @@
+#_navbar 
+	width: 100%
+	height: auto
+	header 
+		padding-left: 250px
+		padding-right: 125px
+		#navbar_logo
+			width: 120px
+			height: 35px
+		#filter-wrapper
+			i
+				color: var(--v-subtitle-text--base)
+			&:hover
+				background-color: var(--v-green-lighten3)	
+				color: var(--v-light-base) !important
+				i
+					color: var(--v-light--base) !important
+		#search-box.search-box 
+			width: 324px
+			height: 45px
+			&.active
+				border: 1px solid $primary !important
+			input 
+				width: 100%
+				height: 45px
+				outline: none
+			img 
+				width: 28px
+				height: 28px
+				cursor: pointer
+		#routes.routes
+			a
+				font-style: normal
+				font-weight: 600
+				font-size: 16px
+				line-height: 19px
+				color: $header !important
+				&.router-link-active
+					background-color: var(--v-green-lighten3)	
+					border-radius: 10px
+					color: var(--v-light-base) !important
+				&:hover:not(.router-link-active)
+					border-radius: 10px
+					// background-color: var(--v-green-lighten4) !important
+					color: $success !important
+				
+        
+@include media(">tablet") 
+    #_navbar
+			
+
+    
